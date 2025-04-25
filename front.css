@@ -1,0 +1,56 @@
+.divop{
+    background-color:red;
+    font-size:30px;
+    display:flex;
+    
+    padding:1px;
+    color:white;
+    
+    
+    justify-content:center;/*row center*/
+    align-items:center;/* coloum centeer*/
+
+
+}
+.divop{
+    
+    display:grid;
+    grid-template-columns:1.5fr 34fr;
+    gap:10px;
+}
+
+.logo-image{
+    padding:30px 50px;
+    padding-bottom:100px;
+    width:50px;
+
+}
+
+.h2{
+    background-color:green;
+}
+.h1{
+    display:flex;
+    flex-direction:column;
+    
+    align-items:start;
+    background-color:black;
+    gap:15px;
+    
+}
+.h1 i,img{
+    cursor:pointer;
+    transition:transition 0.5 ease;
+    
+}
+.h1 i{
+    padding-left:50px;
+
+}
+.h1 img:hover,i:hover{
+    transform:scale(1.4);   
+}
+.sec-1{
+    display:flex;
+}
+
